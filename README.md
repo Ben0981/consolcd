@@ -1,5 +1,7 @@
 # consolcd
-A simple tool which lets you use your terminal or interpreter shell in the same way as an lcd screen.
+A simple tool which lets you use your terminal or interpreter shell in the same way as an lcd screen.<br />
+It uses a simple dictionary to address any position in a given terminal or interpreter shell. <br />
+This tool is by no means optimized and I am sure there is either a faster way to create this or there is already a faster program which I couldn't find.
 
 # How to use
 The program includes 4 functions:<br />
