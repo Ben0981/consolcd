@@ -1,4 +1,4 @@
-from os import system
+import os
 
 
 class Screen:
@@ -27,16 +27,9 @@ class Screen:
         print(screen_print)
     
     def clear(self): #Clears the terminal using a function from the os library
-        system('cls' if os.name=='nt' else 'clear')
+        os.system('cls' if os.name=='nt' else 'clear')
     
     def clean(self): #Cleans the screen by moving the printed lines out of the way by spamming new lines
                      #Good for when you're not using the terminal but for example Thonny or another interpreter
         print('\n'*(self.max[1]-1)*10)
         
-    
-screen = Screen((16,2), "-")
-screen._set((3,0), 'A')
-screen._set((15,0), 'A')
-screen._set((9,1), 'A')
-screen._set((0,1), 'A')
-screen.console_print()
