@@ -9,7 +9,7 @@ The program includes 4 functions:<br />
   - clean which removes everything from the terminal or interpreter shell by printing new  lines<br />
   
 # Example
-This program would be used to print "Hello World" in what would be the first line of a 1602 lcd screen and the clear it
+This program would be used to print "Hello World" in what would be the first line of a 1602 lcd screen and the clear it.
 ```ruby
   screen = Screen((16,2))
 
